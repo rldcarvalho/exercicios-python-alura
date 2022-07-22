@@ -1,5 +1,4 @@
-from TelefonesBr import TelefonesBR
+from datas_br import Cadastro
 
-telefone = 5532984938400
-telefone_objeto = TelefonesBR(telefone)
-print(telefone_objeto)
+cadastro = Cadastro()
+print(cadastro.tempo_cadastro())
